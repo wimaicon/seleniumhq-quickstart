@@ -8,22 +8,51 @@
   <name>seleniumhq-quickstart</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-
-<!--     
 	<dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
- -->
- 	
- 	<dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>2.48.2</version>
-    </dependency> 
- 
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.4</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-exec</artifactId>
+		<version>1.3</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpclient</artifactId>
+		<version>4.5.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.9.6</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>2.48.2</version>
+	</dependency>
+	<dependency>
+		<groupId>io.selendroid</groupId>
+		<version>0.16.0</version>
+		<artifactId>selendroid-standalone</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>io.selendroid</groupId>
+		<version>0.16.0</version>
+		<artifactId>selendroid-client</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>io.appium</groupId>
+		<artifactId>java-client</artifactId>
+		<version>3.2.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.opera</groupId>
+		<artifactId>operadriver</artifactId>
+		<version>1.5</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>seleniumhq-quickstart</finalName>
