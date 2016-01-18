@@ -1,1 +1,1 @@
-# seleniumhq-quickstart
+# seleniumhq

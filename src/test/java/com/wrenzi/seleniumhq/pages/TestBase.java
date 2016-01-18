@@ -15,8 +15,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
-import com.wrenzi.seleniumhq.util.PropertyLoader;
 import com.wrenzi.seleniumhq.util.Browser;
+import com.wrenzi.seleniumhq.util.PropertyLoader;
 import com.wrenzi.seleniumhq.webdriver.WebDriverFactory;
 
 /*
@@ -26,6 +26,8 @@ import com.wrenzi.seleniumhq.webdriver.WebDriverFactory;
  */
 
 public class TestBase {
+	protected static Home home;
+	protected static WebDriver driver;
 	private static final String SCREENSHOT_FOLDER = "target/screenshots/";
 	private static final String SCREENSHOT_FORMAT = ".png";
 
